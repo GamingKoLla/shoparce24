@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Minecraft GUI slot styling */
+  .mc-slot {
+    background-color: #8b8b8b;
+    border-top: 2px solid #373737;
+    border-left: 2px solid #373737;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    image-rendering: pixelated;
+  }
+  
+  .mc-slot-inset {
+    background-color: #8b8b8b;
+    box-shadow: inset 2px 2px 0px #373737, inset -2px -2px 0px #ffffff;
+  }
+
+  .mc-panel {
+    background-color: #c6c6c6;
+    border-top: 2px solid #ffffff;
+    border-left: 2px solid #ffffff;
+    border-right: 2px solid #555555;
+    border-bottom: 2px solid #555555;
+    box-shadow: inset 1px 1px 0px #dbdbdb, inset -1px -1px 0px #8f8f8f;
+  }
+
+  /* Minecraft item hover tooltip box */
+  .mc-tooltip {
+    background: rgba(16, 0, 16, 0.95);
+    border: 2px solid #280048;
+    box-shadow: 0 0 0 1px #100010, inset 0 0 0 1px #520092;
+    border-radius: 4px;
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+/* Custom modern dark scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #11141d;
+}
+::-webkit-scrollbar-thumb {
+  background: #283046;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3b4768;
+}

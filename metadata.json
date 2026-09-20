@@ -1,0 +1,6 @@
+{
+  "name": "ArcEdgeShop - Minecraft Paper Plugin & Studio",
+  "description": "High-performance Paper 26.1.2 - 26.3+ shop plugin with dynamic item registry, atomic economy, anti-dupe security, and live GUI simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
